@@ -1,0 +1,48 @@
+/*部分页面的公共样式*/
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 900px;
+  box-sizing: border-box;
+  background: url("../assets/image/bg.jpg") repeat-x fixed;
+  background-size: auto 100%;
+}
+.hover:hover{
+  cursor: pointer;
+}
+.common_wrapper{
+  height: 100%;
+}
+.common_box{
+  width: 600px;
+  min-width: 600px;
+}
+.common_input{
+  width: 360px;
+}
+.common_btn{
+  padding: 10px 90px 20px 90px;
+}
+.common_tit{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #2d8cf0;
+}
+.common_note{
+  text-align: right;
+  padding-right: 90px;
+  margin-top: -10px;
+  font-size: 12px;
+  color: #999999;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
